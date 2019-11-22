@@ -143,36 +143,1244 @@ else
         </semantic:inputExpression>
       </semantic:input>
       <semantic:output id="_CC510CBD-6623-4763-A7A9-39A132AAAC68" typeRef="number"/>
-      <semantic:rule id="_004E8E9E-5534-4D15-8B98-E359627BB8EC">
-        <semantic:inputEntry id="_096E0F40-CA64-46C8-83EA-0C8A5EF83A16">
-          <semantic:text>"EUR"</semantic:text>
-        </semantic:inputEntry>
-        <semantic:outputEntry id="_268B0FD0-97AC-46E0-AC07-468F77E0B8BF">
-          <semantic:text>1.1214</semantic:text>
-        </semantic:outputEntry>
-      </semantic:rule>
-      <semantic:rule id="_14D2F8FE-C1AE-477E-98C4-1CEFA6A09AF8">
-        <semantic:inputEntry id="_74C18E42-2C87-4A6F-917C-47B95DDC0A1F">
-          <semantic:text>"GBP"</semantic:text>
-        </semantic:inputEntry>
-        <semantic:outputEntry id="_5456E551-132F-41A8-A22E-DDA456EBC38E">
-          <semantic:text>1</semantic:text>
-        </semantic:outputEntry>
-      </semantic:rule>
-      <semantic:rule id="_36131C53-7B49-4217-8999-18FC20491838">
-        <semantic:inputEntry id="_F9D3A3FE-ABEE-447F-AB37-BC002744FAD4">
-          <semantic:text>"USD"</semantic:text>
-        </semantic:inputEntry>
-        <semantic:outputEntry id="_E695ADF0-5437-401E-B12E-5244CB8D6272">
-          <semantic:text>1.2662</semantic:text>
-        </semantic:outputEntry>
-      </semantic:rule>
       <semantic:rule id="_F60B5A8A-AFF5-4884-98F2-983855DC7B8E">
         <semantic:inputEntry id="_F731494A-7683-454D-B09D-C1E8B7265129">
           <semantic:text>"AED"</semantic:text>
         </semantic:inputEntry>
         <semantic:outputEntry id="_029DFC5E-2C55-41C8-BE69-28A94AECC571">
           <semantic:text>4.58</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A98BF2CC-1375-48C3-A289-0CE889B5A655">
+        <semantic:inputEntry id="_ABE65B21-D97F-4F24-AF6E-1D413D37ECE0">
+          <semantic:text>"AFN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7FB32BBB-553E-447F-8ECC-6B9023B0F965">
+          <semantic:text>98.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_993D49C8-8D2A-4897-B17E-A27D8874CE19">
+        <semantic:inputEntry id="_DA170B49-6EB9-4E47-B4AD-93074F78D154">
+          <semantic:text>"ALL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7E6259F7-C0FB-4E82-B390-4354E4AC3D87">
+          <semantic:text>140.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_7EA3DC3E-6E01-4FFF-A248-FC82C13CAA4C">
+        <semantic:inputEntry id="_8EDFC841-6002-45E5-8BD7-65A0AE874507">
+          <semantic:text>"AMD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A642550A-33EE-4EA2-9F57-28E402A6EC3C">
+          <semantic:text>590.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_3F9A3E98-4A4B-4FD0-80E7-BBC486BE6700">
+        <semantic:inputEntry id="_082240F1-3A6F-4CAE-A80B-B8F22682279C">
+          <semantic:text>"ANG"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_B6575E94-F015-48E6-B6EE-DCD6D1D55A48">
+          <semantic:text>2.20</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A3129915-8DD7-41F8-AA44-7FA8D8195414">
+        <semantic:inputEntry id="_4DF913E6-E4B0-429E-8AA3-148BFAC3C354">
+          <semantic:text>"AOA"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8DC214CF-2497-4D4B-8CA1-EA21FDDD5714">
+          <semantic:text>473.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_4C94D93A-8D53-47E9-A203-D3AFF69A6A54">
+        <semantic:inputEntry id="_CA19AA3E-17EC-45FD-A9C9-C32FE13A015B">
+          <semantic:text>"ARS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_DC20C86B-CBCC-4FF0-9396-92573D221580">
+          <semantic:text>72.93</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_058FEEB0-DADF-46E4-B665-4A4566D025DE">
+        <semantic:inputEntry id="_F81284E5-F7D4-43E3-8C08-8C01BD710D2D">
+          <semantic:text>"AUD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8EEEE433-56F1-4AC9-8184-8D6F95E0DE76">
+          <semantic:text>1.84</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_BA261E57-252B-4E11-9E53-D22ED2EDD9F8">
+        <semantic:inputEntry id="_0D9618D3-42B0-4D6C-972C-63055EB41619">
+          <semantic:text>"AZN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_49804E5A-81EA-44F8-9958-C9066FE1698A">
+          <semantic:text>2.10</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_8B9F6A61-9FE9-4CB9-BF0C-1EFE1547B0A7">
+        <semantic:inputEntry id="_E613235D-D72F-4153-99B5-376A50748CA9">
+          <semantic:text>"BAM"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7E42F003-65E9-405D-A598-B9B6ECDCEE0E">
+          <semantic:text>2.20</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_1373003C-34FC-4B97-9065-D858A157A75D">
+        <semantic:inputEntry id="_67347922-048E-423C-B0D9-5BBC88CDC23C">
+          <semantic:text>"BBD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_E79B3FF5-7EF9-451C-A112-A125B5D46636">
+          <semantic:text>2.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_5A948FE9-018B-4FFF-B014-D7F533AEFF52">
+        <semantic:inputEntry id="_19530AF1-5870-40D8-A7D5-62C930F15786">
+          <semantic:text>"BDT"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_FE7DBF57-4F08-4E2E-A8E7-B8C9799B1A85">
+          <semantic:text>104.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_06E90636-ED2A-4038-A1C4-0C6A7EAD1639">
+        <semantic:inputEntry id="_3005FC13-EE9F-4F66-9194-BB7E5082224B">
+          <semantic:text>"BGN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_780345E3-F5B2-4E6D-AA26-EBE0033340C8">
+          <semantic:text>2.21</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_C033020B-1A98-42FF-8974-0776D517A880">
+        <semantic:inputEntry id="_FE9570CA-E4F5-442D-A1C4-8FEB8282A06D">
+          <semantic:text>"BHD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_9766BCAC-2A7C-439C-BB13-CB69C21E99E4">
+          <semantic:text>0.47</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_0F39A624-4CA3-4CFB-987C-AC25DB3D083F">
+        <semantic:inputEntry id="_B3B644E3-88FD-4608-914D-010C25CC22DA">
+          <semantic:text>"BIF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_C28D0585-B70B-4FDA-B929-5E3ADB10343F">
+          <semantic:text>2300.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_7CD6688C-21FD-47F7-923C-9608D604FB7C">
+        <semantic:inputEntry id="_1F16D440-9DD1-47AB-8B60-9FE69A6394E8">
+          <semantic:text>"BMD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8BB4FC1B-E1BB-48C2-B09E-F37EDD0C162A">
+          <semantic:text>1.25</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_73C43FE2-4CAB-43D4-AD05-00DE7E282C9A">
+        <semantic:inputEntry id="_DC9A7786-189B-4F6D-BB82-00B3C6785269">
+          <semantic:text>"BND"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_498E0449-2537-44D3-A22A-9712C6D1C9C8">
+          <semantic:text>1.72</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_739B95CC-938C-49C6-975B-79005A1F0179">
+        <semantic:inputEntry id="_B979D0B6-EEF8-42AD-BE44-D8102EC5BF75">
+          <semantic:text>"BOB"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_66BFF363-C3F6-4F31-9210-F4A4578A9599">
+          <semantic:text>8.70</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_85DC8BCF-246B-43A1-AF6C-76A8BEA89083">
+        <semantic:inputEntry id="_BB1BC856-8ACB-4ABA-B90F-99BD76F5F759">
+          <semantic:text>"BRL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_D3F4D59E-6C97-49CC-86E4-BB26F9BBC706">
+          <semantic:text>5.20</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_C29F2297-0E12-4B4C-9E4F-2AC18550740A">
+        <semantic:inputEntry id="_55836914-24D9-4B95-A6C0-3A7A23D26CC7">
+          <semantic:text>"BSD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8E37B169-CC98-4E5F-8503-3D898B698D53">
+          <semantic:text>1.25</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_860FE9C3-D7B8-477D-8200-4A61C64E34FA">
+        <semantic:inputEntry id="_9060A3D7-888C-4D2F-A30D-0430CABB7D39">
+          <semantic:text>"BTN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_9478E48C-F16D-4102-A1D2-93CCF116307D">
+          <semantic:text>89.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_EA20E42E-44F8-46E8-8876-0EA64CCE2D36">
+        <semantic:inputEntry id="_FF545022-D9C4-426B-B1D0-DB83B6F588BA">
+          <semantic:text>"BWP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_25960898-DD53-4A77-874C-DD27C1F502A6">
+          <semantic:text>13.80</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_3C21D2CF-7670-4B9F-8257-A3178B4EC917">
+        <semantic:inputEntry id="_4B965814-F20D-420B-8724-9CC2B3B6DC25">
+          <semantic:text>"BYN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1A442AED-C0DE-4CF6-A960-E6DA83187823">
+          <semantic:text>2.56</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_CD359D9B-00CC-494D-8A11-95F7D614B3AD">
+        <semantic:inputEntry id="_8F905A5D-E6CF-4A42-ACA1-5B0D432A4CA3">
+          <semantic:text>"BYR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_3111A84D-79BF-4475-83E3-E37819CD35C7">
+          <semantic:text>25576</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_42CEEF6D-C310-4D34-97C8-BD1D03B70CC8">
+        <semantic:inputEntry id="_6BAD7A5D-C6C0-4F61-B0D4-D5AFB16EE418">
+          <semantic:text>"BZD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_5BAC0F5F-2AEC-4E9B-B21F-E71B854AB7A9">
+          <semantic:text>2.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_BF72E99D-10C0-403E-9D11-C7A36E73DC4B">
+        <semantic:inputEntry id="_0E63C391-F999-448A-8157-22F080CB40F7">
+          <semantic:text>"CAD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7BD4A98B-5438-4A33-99FC-1710AAA172A7">
+          <semantic:text>1.65</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6DEA7E7E-406E-4E92-ABBD-AAFF5A7813EB">
+        <semantic:inputEntry id="_DEBF97B4-63D7-44BF-9760-FB74859C7526">
+          <semantic:text>"CDF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_72F3CD67-386F-44F6-8EAA-C768501694F9">
+          <semantic:text>2101.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_12145C11-2B13-48F3-B474-FA24CAAA9DD3">
+        <semantic:inputEntry id="_4BBF78D2-130E-455C-80FA-A903261663AC">
+          <semantic:text>"CHF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_0C5704FF-E717-4000-B599-3B4288F5B840">
+          <semantic:text>1.24</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6B744223-72B8-4B62-BEDD-F261346F33C5">
+        <semantic:inputEntry id="_A0B050A5-6A96-4E07-9455-D9192B65189F">
+          <semantic:text>"CLP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_FADFCA4F-74D6-4276-8BA8-DDBAA57EF6CB">
+          <semantic:text>900.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_B898F24C-4CBE-485E-9025-65397DD7AFB7">
+        <semantic:inputEntry id="_D0E03A94-ECDA-409F-BB2D-1BF0638FF18A">
+          <semantic:text>"CNY"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_0D0D9740-0701-4DBB-9606-C0B200E120D3">
+          <semantic:text>8.85</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_2962E2EB-C3A1-4907-B988-A96EB7A5B1D1">
+        <semantic:inputEntry id="_40209C33-6EBD-4927-8820-319751E2E052">
+          <semantic:text>"COP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_29115A4A-3A53-4F5B-B665-835669B776D9">
+          <semantic:text>4200.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F06CFDC4-2076-4067-8261-00AABBAC1A0B">
+        <semantic:inputEntry id="_D989FBFF-C660-427A-95B1-99751F828E62">
+          <semantic:text>"CRC"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_5152B374-6298-4D4D-9A76-2841313FCFE0">
+          <semantic:text>730.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_11800F0C-0BBD-418A-A8B0-BAB3EC358C88">
+        <semantic:inputEntry id="_44C8D32D-7316-4CAC-AC5C-74C97147E628">
+          <semantic:text>"CUP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F358E832-01C3-4A11-A960-5BA8EBC75C65">
+          <semantic:text>1.25</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_E9DBC130-0759-485E-9089-A110845AB763">
+        <semantic:inputEntry id="_923BE388-EBDB-432B-A064-5ED30EB685C8">
+          <semantic:text>"CVE"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_11252F91-FFE3-4835-AB14-C6D1E84E993C">
+          <semantic:text>125.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_00060C58-4DEC-4C78-A1C3-D499C90A832F">
+        <semantic:inputEntry id="_EC50B587-CF61-416A-BEE0-637FC3A4DA7C">
+          <semantic:text>"CZK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_2BE49BB0-60B9-452F-8061-FEE2D7DDF356">
+          <semantic:text>29.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_ADEAB8F3-8D50-4063-9390-C808F74E151C">
+        <semantic:inputEntry id="_CAF1B985-D85A-4768-BCEB-61A4A25654E5">
+          <semantic:text>"DJF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_31ACA117-DB03-4D02-85B5-19F034AEA7B0">
+          <semantic:text>222.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_C5C8C420-7F07-4071-8D0B-DFA40591BAC3">
+        <semantic:inputEntry id="_55358A82-0DC4-4F44-B56C-4A648A4F7ACC">
+          <semantic:text>"DKK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_D8E86771-3EC4-4BCF-9744-2C331FF9059D">
+          <semantic:text>8.45</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6B6D1CE7-BDEC-44E3-A352-035E0E9E306D">
+        <semantic:inputEntry id="_E40A202D-0AA3-454B-ADE8-BD63E71A1B9A">
+          <semantic:text>"DOP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_71D89540-DE59-4E27-8FAB-F5948D69B692">
+          <semantic:text>64.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_602F2B58-60DF-40F3-93D6-6DF55376DCE3">
+        <semantic:inputEntry id="_4BFA2CDB-00E0-4088-8FDC-634FB80F21C8">
+          <semantic:text>"DZD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_AD263798-FD83-46B7-99D7-628B21B6EABD">
+          <semantic:text>150.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_3DBB8D0E-5D46-46AE-887C-F41EA81B3D17">
+        <semantic:inputEntry id="_BB3B396C-124C-4400-AFF9-9321085350B1">
+          <semantic:text>"EGP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_89E59BF5-CE03-4F12-9E15-5EC7963589BE">
+          <semantic:text>20.40</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_7DBB4B56-5FEF-4A0C-803B-4CC2E642776B">
+        <semantic:inputEntry id="_2C46C30E-BEC6-4AED-91F9-4402E127D35E">
+          <semantic:text>"ERN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F0566472-4C56-4983-BFC8-57D101AB05FD">
+          <semantic:text>19.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_EF6858C8-458F-40EB-848E-CFE62E3837F3">
+        <semantic:inputEntry id="_2732004E-A26C-4DBC-875D-3332B96AA222">
+          <semantic:text>"ETB"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_979D8032-B052-4B58-BB31-5376E06C8333">
+          <semantic:text>37.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_2DEE085B-9FAA-4583-AC07-F681232A653A">
+        <semantic:inputEntry id="_C926AEB8-C8CC-45A6-A270-EC14AC7AFE92">
+          <semantic:text>"EUR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_06DCC725-7398-4E6C-8FD1-B79A0C71EC8C">
+          <semantic:text>1.13</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_CECC7BF7-9909-43A3-A9AC-29DC3651AFA3">
+        <semantic:inputEntry id="_BE20AA8B-EF04-4F24-B16C-13B1F4306178">
+          <semantic:text>"FJD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_95BFA6C6-65B4-4BCC-9AE8-FA837CA7FFBA">
+          <semantic:text>2.70</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_07462D9F-59F4-47A0-85C3-8465F1C1CA76">
+        <semantic:inputEntry id="_524486D0-1B47-4682-87C4-760A8C752EB0">
+          <semantic:text>"FKP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_BA7DBF74-88B3-4E60-A125-7FFAE7E6858C">
+          <semantic:text>1.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_88B7A703-BA3D-4AA4-BE79-645F35046EA8">
+        <semantic:inputEntry id="_4722F909-0774-4EB9-BF43-D415C7EEB187">
+          <semantic:text>"GBP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7E24831C-574C-4AC2-BB15-C6678BA89F98">
+          <semantic:text>1.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_62252EBC-C345-4660-AEFB-93C44E06BB3C">
+        <semantic:inputEntry id="_B6753893-CDA3-4B59-B7E4-D653FEF5FB94">
+          <semantic:text>"GEL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_6494A175-4DB9-4DC5-87B6-49E95AD846A7">
+          <semantic:text>3.70</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_CBFA4576-A79D-4CD6-B462-25AFED001C42">
+        <semantic:inputEntry id="_03CB37C1-85BD-47DB-83FE-E3AB2BE373E7">
+          <semantic:text>"GHS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7BC9D4D6-D36B-4EB4-8CDB-83B8B3533585">
+          <semantic:text>6.89</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F77EAE61-2B87-4252-BAF5-18A0EF063933">
+        <semantic:inputEntry id="_24A67A89-B62D-4AE9-9226-622C76D34C93">
+          <semantic:text>"GIP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_CB3D4992-6882-4797-A117-6605CD9C9D14">
+          <semantic:text>1.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_EB56510D-28E4-47D1-9A6E-1A8A5406A89B">
+        <semantic:inputEntry id="_03760ADD-7557-4FF5-B19A-140347F73D33">
+          <semantic:text>"GMD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A13F638B-02A5-4C48-B31D-D5F48DE8C519">
+          <semantic:text>63.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F5305E10-5E02-4CF8-9BAB-173AA17FC272">
+        <semantic:inputEntry id="_06C29893-B185-463F-A1D8-9506C1BBE002">
+          <semantic:text>"GNF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1DCF34D1-C462-4B44-A3A2-DBA1CB5714B9">
+          <semantic:text>11630.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_79419C17-C9B8-48AA-B7CF-22B5D398B22A">
+        <semantic:inputEntry id="_CDBAFC4E-EF4A-48D0-B076-249D618E596F">
+          <semantic:text>"GTQ"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_FF11A4F1-5A41-449B-9727-60AF2B6733AC">
+          <semantic:text>10.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_E846805D-33D2-46DC-B145-C3DAFCE29925">
+        <semantic:inputEntry id="_3993001D-C0A2-4871-83D0-709C171EBEAC">
+          <semantic:text>"GYD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_ACEAE2D5-52DB-4CAD-A94A-706BBBEC5D1D">
+          <semantic:text>262.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_217B94C5-DCA1-436A-BC1B-376486EFEBBF">
+        <semantic:inputEntry id="_6793946C-A11E-4211-9E8D-8AFCBE44F80E">
+          <semantic:text>"HKD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_ACCE337C-B756-4CE7-B938-BF80C13786CF">
+          <semantic:text>9.77</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6BE25667-49FE-46E3-8505-84FD6ABDCD70">
+        <semantic:inputEntry id="_70E8A22D-11E3-4AE3-957C-41C7293C3485">
+          <semantic:text>"HNL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F2D233E8-24BE-4967-80E9-63E6074F12A5">
+          <semantic:text>31.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_39B776A2-9B67-4C1B-9963-E613B7126EBC">
+        <semantic:inputEntry id="_183B1FD5-2C25-4162-AA0E-5FAFDB4E9DA1">
+          <semantic:text>"HRK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1ABD1FC8-1FDE-4A20-86F1-F458D7E6F079">
+          <semantic:text>8.80</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_5611EBAF-A322-48CB-8E6F-BFA9162F862F">
+        <semantic:inputEntry id="_DBBB6DFC-6114-435A-B11A-4C53F78B46FB">
+          <semantic:text>"HTG"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_0605DEDD-0534-48B2-BC78-9A94482B6489">
+          <semantic:text>120.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_999F736F-8CFC-4697-A344-F2209B81D945">
+        <semantic:inputEntry id="_957FB81E-7C01-4FF2-8464-4EF26DAC987F">
+          <semantic:text>"HUF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_9308B920-0641-4EEB-92FF-2DA0B64BCFD2">
+          <semantic:text>378.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_90F3EC05-92C0-4E6C-BC5A-62AEEBAAA3CB">
+        <semantic:inputEntry id="_560085B5-3DA9-4AAD-8E70-8B83C6DE8D89">
+          <semantic:text>"IDR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_28135496-0D8B-4404-B247-46F2B8ACB6C6">
+          <semantic:text>17600.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_DD8A4DA1-6775-4F7A-B371-61A0C03C03A2">
+        <semantic:inputEntry id="_79A158E1-ED37-41EF-8B07-226A35B7EF8F">
+          <semantic:text>"ILS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_E4C9E98E-042A-4976-99E5-3B813541C46E">
+          <semantic:text>4.40</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_21A9E7A5-075B-496F-A3CF-D23B24890DD9">
+        <semantic:inputEntry id="_EA585EB5-6F73-41CB-8B29-343198FFF5E5">
+          <semantic:text>"INR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_951FA76C-3D8B-4EEC-8C3D-A16439CC99EF">
+          <semantic:text>89.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_BC47BE87-055C-487F-AC3C-46817BBA691D">
+        <semantic:inputEntry id="_F3AFF670-48BF-44C3-9F78-6514FF16AE84">
+          <semantic:text>"IQD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_0B629D38-9ECC-4B6E-8A55-685874FA38B8">
+          <semantic:text>1500.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_63023ECE-0D8C-4D22-BD7F-12910924FD2D">
+        <semantic:inputEntry id="_5421BC4F-785B-47E5-925E-EEE769DEE67A">
+          <semantic:text>"IRR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_18AE1078-14B7-415A-94B3-99B8F2220113">
+          <semantic:text>137800.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F98A856D-9F33-4056-8A7D-78715383BB59">
+        <semantic:inputEntry id="_80B2A8DA-B05C-4DA8-A6BE-B718FBE6383A">
+          <semantic:text>"ISK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7D838C62-2CBF-4EDB-92F3-593D24B2E5C2">
+          <semantic:text>155.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_520A536F-E105-4A54-8207-855A70476C63">
+        <semantic:inputEntry id="_B429D9ED-6353-46E9-859A-04EDD45FFD5C">
+          <semantic:text>"JMD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_623C7D1B-512B-4EBC-9529-7DA6A08C6C01">
+          <semantic:text>169.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_8C50FAE8-5E86-4254-843F-DE79159FE40D">
+        <semantic:inputEntry id="_A07AC6FC-77EF-4FA3-83E0-0ECF759C0946">
+          <semantic:text>"JOD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_69E32367-B9C7-404C-95FE-215BA1493E3F">
+          <semantic:text>0.90</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_507B7073-F07F-4B6C-B892-03A3AE6C587C">
+        <semantic:inputEntry id="_31A2493C-7D0F-47A1-957F-9A6371CFBF41">
+          <semantic:text>"JPY"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_DC3B4222-BE80-4B4B-B4FE-8176F9D481F3">
+          <semantic:text>134.37</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_DD7FE872-A09E-4188-AE0B-D8548337F3C5">
+        <semantic:inputEntry id="_CBAF84EE-E079-47C2-B959-111793F25827">
+          <semantic:text>"KES"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7E640FFA-32A7-40E4-AC87-506A36DA05BF">
+          <semantic:text>134.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_D770656E-847C-48AE-BAB8-44601877E0D2">
+        <semantic:inputEntry id="_76002B32-F0DF-41EA-90CD-3B3553836484">
+          <semantic:text>"KGS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_28F471DE-B2C1-4297-8A1A-8DEDDDA56D32">
+          <semantic:text>87.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_756441DD-E0F0-49CC-A041-3A94EB75D5BE">
+        <semantic:inputEntry id="_3E2F7B5F-2C17-4810-9C63-A8A74EF9BF65">
+          <semantic:text>"KHR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A02800A5-18BF-4B32-88C4-9525D6FBC9FB">
+          <semantic:text>5177.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_774083F0-AA67-41BD-BA1B-072A09C58642">
+        <semantic:inputEntry id="_A1FC57A1-5312-4C02-A991-F0B14BFE5D56">
+          <semantic:text>"KMF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_FC599E90-4773-4F50-AD44-9471F4871132">
+          <semantic:text>556.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F529D662-4CBC-4E59-AED0-CD694986B13F">
+        <semantic:inputEntry id="_3A661E67-99E7-4D53-B5E6-34B613FFA974">
+          <semantic:text>"KPW"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7098A07D-4CC3-4FD2-AF19-20F756B23FB1">
+          <semantic:text>133.70</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_D31F9EA9-CD30-40F8-B749-597A727A43AB">
+        <semantic:inputEntry id="_7D6F7FD6-19DF-4AE7-AF08-63121B11CB92">
+          <semantic:text>"KRW"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_18A6D4E9-B8E8-448E-ADDF-3795B21725F7">
+          <semantic:text>1490.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_4664BDE2-697E-4465-84D1-AD63935F07A5">
+        <semantic:inputEntry id="_B4A6C983-63B9-4940-BB8E-FB87C46F6F92">
+          <semantic:text>"KWD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_AF4918ED-1178-4AD0-9B32-FC728097ADB8">
+          <semantic:text>0.38</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_E7561396-BA65-40FE-9BE0-D7F3D7DB6CA8">
+        <semantic:inputEntry id="_776CA522-A54E-47D3-8F43-C1D8C5B67EC2">
+          <semantic:text>"KYD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_4C10057B-5191-40D1-9ED4-2711DFE45C1E">
+          <semantic:text>1.02</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_57DBC6F7-2CA0-4A1A-88C1-8355587DF371">
+        <semantic:inputEntry id="_9D1FDCB9-AA00-42C0-BB73-BB92729A1505">
+          <semantic:text>"KZT"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_5A29E750-EC5B-4033-94C9-96644C7696B1">
+          <semantic:text>482.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_CDDE171E-7F46-4E8B-8B71-B5E531C8A131">
+        <semantic:inputEntry id="_F951C220-B9B1-4C71-A50F-F3F2D117B2BC">
+          <semantic:text>"LAK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_D414DC02-12A1-430C-975A-E54E2C00E86C">
+          <semantic:text>11189.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_7761D9AF-B76E-4536-930D-B86DE222DF46">
+        <semantic:inputEntry id="_5E2D45C5-D8C0-471E-BC8F-B2978AA2FD73">
+          <semantic:text>"LBP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F6B99BB2-DB24-4061-89DE-D9A17A844A7D">
+          <semantic:text>1880.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_CD790BAC-655E-41A7-9569-BF5E90F784BA">
+        <semantic:inputEntry id="_C6364344-D38E-4F80-A0FC-B573546B8930">
+          <semantic:text>"LKR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A4337C9E-5C15-45C9-8860-91459E921910">
+          <semantic:text>226.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_C9411744-A300-4E4C-8ADF-7C98A7294865">
+        <semantic:inputEntry id="_818779F0-281B-49B7-915A-8A24D6C62314">
+          <semantic:text>"LRD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8A76F9CE-7B8B-435D-A1B9-EF6DEAB7C9E1">
+          <semantic:text>260.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_3D545C0F-482B-47F9-857E-279ED87B8474">
+        <semantic:inputEntry id="_AD772089-2161-4A53-941F-D09116D0AFEE">
+          <semantic:text>"LSL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_B3CEB8E4-2A4B-40B7-8320-A8CF26608181">
+          <semantic:text>18.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A4C413A7-A65B-40D2-974C-B1FEBE68BFBC">
+        <semantic:inputEntry id="_664B3C5A-C9A8-4ABD-BA40-48C49F6BCD24">
+          <semantic:text>"LYD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_E8AA0999-FD51-404E-81F7-B7E0F08CFBCA">
+          <semantic:text>1.79</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_9CC9C2AA-D96F-49B1-9E8A-C1AEB29D4DC9">
+        <semantic:inputEntry id="_F93194E2-6EAA-48FF-B51A-9CFED11903F9">
+          <semantic:text>"MAD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_60726771-CBAC-414C-A8D4-C9AC883AD272">
+          <semantic:text>12.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_EF6CC4B1-1CA3-49DA-B513-C2C041029589">
+        <semantic:inputEntry id="_1CA5BAAD-B217-49E5-8F04-341F4BE17178">
+          <semantic:text>"MDL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_CFE9581B-B75B-4BD7-A86B-F1D5160475D1">
+          <semantic:text>22.10</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_86F9D5D4-3A79-45E0-86FD-42C12E5330F7">
+        <semantic:inputEntry id="_2F6B0939-1CB0-4913-9B31-002D35B94D05">
+          <semantic:text>"MGA"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_4220F8F5-38B6-4DFD-9722-3AC494F8D3A1">
+          <semantic:text>4720.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_5ABD9517-D192-4E87-AD27-12D60D7E2CA4">
+        <semantic:inputEntry id="_D4EF4133-469C-49D7-990B-991EE22D5F6D">
+          <semantic:text>"MKD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_FE6888A7-323B-4B78-B04B-D2D50197A865">
+          <semantic:text>70.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_88E29E8F-C06D-4EE0-9FB1-94C3FA26A485">
+        <semantic:inputEntry id="_C55303BA-DD37-4D53-A991-1E1CC433E2A1">
+          <semantic:text>"MMK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_709EBFB5-8073-47CA-B01C-70F4AC3861E8">
+          <semantic:text>1933.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F66F6808-23A9-4A13-A951-5879862C7E76">
+        <semantic:inputEntry id="_8035E333-8B85-4AE5-97FD-5A12DBE69D63">
+          <semantic:text>"MNT"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A6453C4C-7911-427A-B2B2-A946AC570239">
+          <semantic:text>3275.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_209DFC0B-D85A-471A-8293-B3B1D99493BC">
+        <semantic:inputEntry id="_8F462D38-5BB0-42AB-AE59-696E43D994F6">
+          <semantic:text>"MOP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_793D3371-D1D8-460D-AEAE-90D434B216CB">
+          <semantic:text>10.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_29E30CB4-47A9-4951-98FF-A70365702C85">
+        <semantic:inputEntry id="_B37C32FC-E48F-41D3-8A4C-636825DE9080">
+          <semantic:text>"MRO"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_EF41DF71-880A-4F09-AF51-F1E338DBF56A">
+          <semantic:text>466.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_D6E3C3EC-E507-46DC-8363-810AD8B89379">
+        <semantic:inputEntry id="_8393BB15-4EE7-4047-A81D-23B3881B67A5">
+          <semantic:text>"MUR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_3496DAA1-D1AA-4709-A12A-996F4364133D">
+          <semantic:text>47.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_B751C16A-EB11-413A-8F62-E71D5769EE3A">
+        <semantic:inputEntry id="_8B1FA304-2E51-4FA2-8D7E-75C3A3F5BB5D">
+          <semantic:text>"MVR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_3DA7011F-31F7-4424-A47D-26EFAB1BBF22">
+          <semantic:text>19.20</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_57033468-82E2-4B58-B899-7B49F80F34A7">
+        <semantic:inputEntry id="_B0C61319-009C-4898-92EC-517F2ED97378">
+          <semantic:text>"MWK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_577FD2FE-F61E-4BF0-84F1-C27BC30657D6">
+          <semantic:text>923.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_ED0B34FF-B010-4F7B-A398-CAD8AC86EB43">
+        <semantic:inputEntry id="_A6D9D6B3-00DD-42BB-87A2-72E819988F23">
+          <semantic:text>"MXN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_13AB0A25-C0BD-4F0F-BE0A-E1EE43C750CD">
+          <semantic:text>24.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_72B379F1-B61B-4707-8BF9-23C9AF0474A4">
+        <semantic:inputEntry id="_03083707-7698-485C-AF30-6FD74EB2804C">
+          <semantic:text>"MYR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F93410D4-861C-4419-8121-8681B4BFB40B">
+          <semantic:text>5.22</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_D35CED21-D0C1-4A0C-AA63-3D3CBF719097">
+        <semantic:inputEntry id="_7B0F10F8-69A9-44D6-A075-299FEB6EB4FE">
+          <semantic:text>"MZN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8B988A7F-9D9F-48D0-81E5-5FD9717F735A">
+          <semantic:text>78.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_0436A849-FF35-4ADC-B949-07E64FE88C10">
+        <semantic:inputEntry id="_15584EFA-809C-432A-8D08-DE97C16075EA">
+          <semantic:text>"NAD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7F90F4F5-3C50-4071-8607-F6EBF6E0F6E7">
+          <semantic:text>18.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_BFBC438E-4F4A-4F8A-88EC-05F05E1F77FE">
+        <semantic:inputEntry id="_B6536269-735D-4C67-8A08-C3DCF817D16F">
+          <semantic:text>"NGN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_68AE2586-0177-494F-90BB-3ABD5BDE069A">
+          <semantic:text>451.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_9D0AA933-B554-4970-A1C7-B2B0E082FB48">
+        <semantic:inputEntry id="_923B8F13-8417-4EE6-AD4A-E5BD202CC3ED">
+          <semantic:text>"NIO"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_838B9E30-BFDE-419A-85EC-25232148CD6A">
+          <semantic:text>42.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6C2EBD52-1B03-46D3-8E9E-19EE0F276629">
+        <semantic:inputEntry id="_6F9D0DDE-ED8A-4057-A251-5D82AE721852">
+          <semantic:text>"NOK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_08A669E6-FA94-4590-9C13-12C3C52004F2">
+          <semantic:text>11.24</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_C84EB0EA-D72C-4E5B-9F73-494709F92C16">
+        <semantic:inputEntry id="_456684D6-6820-4A84-A190-247B024E2B63">
+          <semantic:text>"NPR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_67587B7B-79E5-46FB-BB68-7C7F10AB860F">
+          <semantic:text>142.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A1188E5A-47DC-4A82-B43E-54D67805A001">
+        <semantic:inputEntry id="_8D79E0AB-7AAE-4045-B028-C7653AF2F4C4">
+          <semantic:text>"NZD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_2DE73DC8-4351-4810-992B-DBF1440BA19B">
+          <semantic:text>1.98</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_078FC861-00F6-4D2E-933F-917FDC018498">
+        <semantic:inputEntry id="_33E80C67-04BC-4CDA-8589-44AC75BCE691">
+          <semantic:text>"OMR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_CB955B5D-8851-43B9-9986-595770F14F03">
+          <semantic:text>0.48</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_0B1FD53C-9C5E-4971-AD9A-F05369AA61BE">
+        <semantic:inputEntry id="_4C043BC5-6B39-47BE-9722-2CDFA46F039A">
+          <semantic:text>"PAB"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A9A13BBC-DD4F-4CC5-BD79-EBD6D6316B27">
+          <semantic:text>1.25</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_7C819275-E986-460E-A443-F124BBE52A44">
+        <semantic:inputEntry id="_60AAF476-6430-4EAA-848E-1B8A807AC7F2">
+          <semantic:text>"PEN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_311FAB7E-99B7-4B3A-A571-9E517139E314">
+          <semantic:text>4.20</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A2AC2383-3F1D-4789-8EEC-6720103F4038">
+        <semantic:inputEntry id="_CB28ED73-E1EE-469F-9C77-41AB162BA076">
+          <semantic:text>"PGK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7D76B209-B39D-45BC-9F15-FCEF296059CC">
+          <semantic:text>4.30</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F6328878-3A5F-411F-94D9-7BB57E579925">
+        <semantic:inputEntry id="_399DA961-605D-49F0-81F3-6F6F0A114B51">
+          <semantic:text>"PHP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_5E324C36-674D-4758-AD54-BF54059B4C3F">
+          <semantic:text>65.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_FF94AA34-8757-48E4-A757-476427BB716D">
+        <semantic:inputEntry id="_3F2F06E5-DF7B-4A8A-866A-B86B152D648C">
+          <semantic:text>"PKR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8BB2C840-3587-4A48-80E7-1D232766ED16">
+          <semantic:text>196.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_CBB311D6-712C-4AAA-8AF1-779ED44BA9B6">
+        <semantic:inputEntry id="_86F5ADA4-1F35-4148-9B30-ED1626C115C1">
+          <semantic:text>"PLN"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_6080BEEA-720E-4F0C-AF64-4861341413DF">
+          <semantic:text>4.90</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_9C6E9DF0-9FAD-4454-BFDE-71381F588804">
+        <semantic:inputEntry id="_2BD10220-2E06-43C8-9D1B-0F7D5C395127">
+          <semantic:text>"PYG"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_99E25F4F-CF12-4FA8-88AB-8531E748969C">
+          <semantic:text>7960.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_2A385F38-A3D5-40A2-8BB2-DBD854A6C217">
+        <semantic:inputEntry id="_FC7A11A6-B0E9-49A8-BF59-704BB3F2C711">
+          <semantic:text>"QAR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_9E4CAB0E-289D-4292-87FA-31E46A86AAAC">
+          <semantic:text>4.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_4B3953FE-6E21-466B-B145-AE28905F59BB">
+        <semantic:inputEntry id="_1C0AC6DF-851E-4848-9AD9-896455E2A56A">
+          <semantic:text>"RON"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_06849985-B70D-47A8-A216-98EE6CAAA212">
+          <semantic:text>5.40</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_98FF318E-8842-47B5-9D83-5A15D0968388">
+        <semantic:inputEntry id="_F401A77B-6642-41EB-B7D1-A93DE4E1A765">
+          <semantic:text>"RSD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_B48670F9-32FD-45D9-8C6F-08721DC254C6">
+          <semantic:text>133.26</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_01A7B951-2F5D-4629-90DD-5EEC705D9185">
+        <semantic:inputEntry id="_91F60519-637D-4E58-B535-74B278F03824">
+          <semantic:text>"RUB"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_6C0DEA8F-BD5A-4B9F-B892-7FDCD4B5C3AF">
+          <semantic:text>80.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_E2CEE7C0-40D0-469E-BA7B-FB939BCE6098">
+        <semantic:inputEntry id="_4FA276CA-4884-461D-8077-0EB8993B0086">
+          <semantic:text>"RWF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_C1936865-76A9-4CBE-AC68-9A3663824839">
+          <semantic:text>1162.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_AA6F9A3E-8946-4B86-A633-74FF8F0BE486">
+        <semantic:inputEntry id="_1E6B9C70-FB63-4789-8D4F-1C0A809A7287">
+          <semantic:text>"SAR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_41773B57-0394-4F77-80B0-10F9C242DCF4">
+          <semantic:text>4.68</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F5A5CE29-841F-41E7-8F0E-961A8C699807">
+        <semantic:inputEntry id="_E9019439-40F2-457C-8E72-71ADDDCF9E39">
+          <semantic:text>"SBD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_74165811-2699-4462-8FBD-FCEF415D7A12">
+          <semantic:text>10.70</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_DCEF8D02-CE11-4E74-B128-78E3667DA19F">
+        <semantic:inputEntry id="_364C3CBE-BDD8-429D-BBF7-5864E05BF44D">
+          <semantic:text>"SCR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_68AFE42B-C337-47E8-A61D-911DCA44662B">
+          <semantic:text>18.20</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_CFDA337A-4D59-46E7-B9DF-21720C7C7464">
+        <semantic:inputEntry id="_CDB4380D-AB15-4CEB-9E9F-6FA8ECB68C48">
+          <semantic:text>"SDG"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_17978CF7-404E-4A0C-ADA7-D36357906AE6">
+          <semantic:text>56.40</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_13C22352-F129-41CE-99AF-DA6A5B7E6D52">
+        <semantic:inputEntry id="_BF827789-85C9-4E4A-8CE3-42DD8F2FDFDE">
+          <semantic:text>"SEK"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_574A45F4-AD84-4621-86A4-6D75F16A27DF">
+          <semantic:text>12.11</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A7247C0B-5856-4544-AA3D-30D3F89F7664">
+        <semantic:inputEntry id="_6F9923F0-E884-42CB-940A-34395C342C82">
+          <semantic:text>"SGD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_EBF44190-074B-4982-BA16-AF51DB290A75">
+          <semantic:text>1.72</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_5D75FA22-02E1-4772-A8FD-93E1AD43507E">
+        <semantic:inputEntry id="_05F69461-383C-4ED7-87FA-68F946E0987F">
+          <semantic:text>"SHP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_09A4AEB9-1640-4E46-8881-01438E3C5FCF">
+          <semantic:text>1.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F135B02E-7CC2-4027-8C38-C52DA9E576F4">
+        <semantic:inputEntry id="_79AD0B84-5FC2-422E-9AD3-5F6D44D7429A">
+          <semantic:text>"SLL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_EFF6CD8B-397C-4D95-8508-6A30066C09B4">
+          <semantic:text>11860.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6DEDA8EE-0229-42EF-8619-03256EE55A00">
+        <semantic:inputEntry id="_60C3A298-6BD2-4114-A659-FA851EA40140">
+          <semantic:text>"SOS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_95CB4594-4347-4184-94BC-71245C2A5E1F">
+          <semantic:text>740.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_26F15735-FF5A-4B73-8EAA-E3EAA5F9214E">
+        <semantic:inputEntry id="_721C1A43-93A2-434C-A4B6-25C3EE6B7088">
+          <semantic:text>"SRD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_5FDA3E06-FC08-45F7-BAFF-C4180C54ABCB">
+          <semantic:text>9.40</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_3D53891C-9B7B-4E4C-A925-D21183D3F26A">
+        <semantic:inputEntry id="_923825D3-A727-417D-9762-C7BD04FFD95B">
+          <semantic:text>"SSP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_3A90DF03-A768-433B-9F47-07BE6ACE4719">
+          <semantic:text>198.70</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_15C404E7-DCC7-48DE-B55B-9DCDB818D554">
+        <semantic:inputEntry id="_6BD0DDF0-B41B-4DB6-B992-C20890547B11">
+          <semantic:text>"STD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F6513EBB-3D2C-4176-8DE1-C812DABD8F9F">
+          <semantic:text>27858.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_C6079AC3-7C69-4857-83A0-8A8F701D583A">
+        <semantic:inputEntry id="_951849B2-E244-4A51-AE19-510DD8FB5899">
+          <semantic:text>"SVC"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7A5F024D-7D9C-4DA8-AC46-1BE4CB085276">
+          <semantic:text>11.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_83739B73-0DF5-459E-AB11-D17DF554FABD">
+        <semantic:inputEntry id="_E0DB6F26-3E0E-4F4C-9A4D-A81CB797417A">
+          <semantic:text>"SYP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F3F2E91A-98E7-4CD2-B5C0-DE5C037E5F7D">
+          <semantic:text>544.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_709BDEA5-CA1E-406D-B6C7-AE88866331EC">
+        <semantic:inputEntry id="_B1F06040-FD06-4010-91CF-3A9B53198752">
+          <semantic:text>"SZL"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_EFB287B1-0B35-470D-B24A-BE9B82D9FD8A">
+          <semantic:text>18.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_B1C3CF32-EE49-4836-B341-33F3FAA9AC8A">
+        <semantic:inputEntry id="_CC12C687-908C-43B1-A996-78459BA787A3">
+          <semantic:text>"THB"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_D05CEC28-0CDF-4FAF-B363-64A726A0FBFB">
+          <semantic:text>38.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6D08747B-C019-46A1-8708-65A069D54118">
+        <semantic:inputEntry id="_B72184E8-FFAA-46A2-B1D2-B864E3A5D0DC">
+          <semantic:text>"TJS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_B259CDE2-3110-4F5A-B9D9-48301314A134">
+          <semantic:text>12.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_2B379B3E-A688-48AB-8604-D8978D02CF2E">
+        <semantic:inputEntry id="_A711F6E1-45A7-47B2-9FD8-95476C15A384">
+          <semantic:text>"TMT"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_CF4272F8-72D7-4CBF-A29E-9447878E5BD3">
+          <semantic:text>4.36</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_63933E7A-87D0-4CE7-B2C7-C4000F48F05A">
+        <semantic:inputEntry id="_8CC9C631-D29B-42BE-BA99-9C0D9C968E70">
+          <semantic:text>"TND"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_3D2A9E43-9D78-4069-9FD5-227D3342259A">
+          <semantic:text>3.70</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_36ED8E92-E532-4111-9B9C-23A3F5030EF5">
+        <semantic:inputEntry id="_1DDF2E71-AFED-4A75-88E6-543726491D79">
+          <semantic:text>"TOP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_0B5E3A1C-3879-4C52-BD7C-B6CC30767ED0">
+          <semantic:text>3.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_468AD091-A258-493D-9644-08CEF480EB0E">
+        <semantic:inputEntry id="_B968888B-1B3E-4551-8D31-D1B7935D7881">
+          <semantic:text>"TRY"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1BF34C2B-22AA-4279-83C3-B2A19123E2EB">
+          <semantic:text>7.10</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_35C511B8-CE18-4FAE-953D-DFA26576E746">
+        <semantic:inputEntry id="_7CA0C289-92C9-4332-A018-84984187BC97">
+          <semantic:text>"TTD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A1B96B05-2985-4BDC-A8E7-7A22C2032FE0">
+          <semantic:text>8.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_23968902-821D-4975-BC48-E49CE5780CCC">
+        <semantic:inputEntry id="_1991F85B-C6B7-4A2E-AA4D-3BC4C39B6C3E">
+          <semantic:text>"TWD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_7D376C05-FF3D-4AF4-919F-647AA6316D16">
+          <semantic:text>39.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_94B4ACA9-BC87-4938-A1D0-393B3A4F376A">
+        <semantic:inputEntry id="_2A463E75-7B6B-4A33-9C6B-F887DABA961A">
+          <semantic:text>"TZS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_6ECC1524-E747-421B-A14F-8F7EC4811551">
+          <semantic:text>2870.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_B51D5EC5-7402-4B24-B718-474E3724561E">
+        <semantic:inputEntry id="_745C1FE6-7094-44E6-A4C1-179669A075D8">
+          <semantic:text>"UAH"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8E80C256-4995-491F-9408-0F362D18EEBC">
+          <semantic:text>30.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_7779F5D4-F88A-4161-A917-12C608C36CA4">
+        <semantic:inputEntry id="_C2D187EA-2E82-4208-871C-6730397F8C59">
+          <semantic:text>"UGX"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1067A53D-32C2-46A6-BF06-391B1E162063">
+          <semantic:text>4600.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_8F7DA2FA-E486-4512-9DB3-0AE0612CB49E">
+        <semantic:inputEntry id="_22C67509-CDC3-4D20-9CE9-EDE7DBF1B938">
+          <semantic:text>"USD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_F58CDB94-9039-462C-B050-1DDA79DDAE7C">
+          <semantic:text>1.25</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_BB27BBAD-2BFE-4E75-AC7E-12249B3AF65F">
+        <semantic:inputEntry id="_0D90229B-2B3D-4614-8210-A8FAA43F84A9">
+          <semantic:text>"UYU"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8EE9CF4D-7E43-4D12-BBDB-BADB78519613">
+          <semantic:text>46.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_DA797E9D-5A96-4436-86AA-3632A49FBCD9">
+        <semantic:inputEntry id="_A75E9948-805B-4946-BE49-2A736258CAD4">
+          <semantic:text>"UZS"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8CA0F25F-2A02-420E-BE87-B184CBD63E21">
+          <semantic:text>11740.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_6BB74F72-8D25-448E-8C43-029188CB7C50">
+        <semantic:inputEntry id="_9BFD61D1-57FD-4FA0-8668-6EECC179E9C3">
+          <semantic:text>"VND"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_E3CFE3A9-1E65-4A25-8171-D022DC91665F">
+          <semantic:text>30198.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A1339651-1B21-430C-BD58-994C68FA2DF3">
+        <semantic:inputEntry id="_97EC079C-B1C0-4CBD-B07D-B617D212EF9D">
+          <semantic:text>"VUV"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1F68B263-30C9-43EB-AB44-68048011475F">
+          <semantic:text>147.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_95B62B9E-F32C-4F87-A17E-B8B2D490CC91">
+        <semantic:inputEntry id="_F3F92172-B5C4-4082-BF73-9F496D20120E">
+          <semantic:text>"WST"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_5B947ECA-0110-49DE-88BC-C9687E504BCF">
+          <semantic:text>3.40</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_891EF31F-BB3E-422D-8243-4F79D489DE4C">
+        <semantic:inputEntry id="_1B46AC17-31D1-4689-B1CD-84729944C001">
+          <semantic:text>"XAF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_4E0CD1DD-BE8A-4F8B-8459-9A871AD3B2B5">
+          <semantic:text>757.60</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_2266D6AB-1728-48B5-8091-59451FBA6BA1">
+        <semantic:inputEntry id="_2FE6ECE4-1BFC-4B21-9E59-F52A9C887C21">
+          <semantic:text>"XCD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_EDE923F0-8D4C-4381-857E-1041265D99CE">
+          <semantic:text>3.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_694BE1D9-0F50-457A-A310-2FCD991363C1">
+        <semantic:inputEntry id="_65992D26-8707-4460-B092-BE4209EEE1ED">
+          <semantic:text>"XDR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_FB484CCE-AB4B-43C4-873D-EF482597E067">
+          <semantic:text>1.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_C5B3BCDD-26F5-46A4-BBF0-6A9D558FE954">
+        <semantic:inputEntry id="_0929BD75-594F-48B1-9B6B-76CF69277F05">
+          <semantic:text>"XOF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_8F6FA08E-27F5-49C9-B932-710F6ADA5C52">
+          <semantic:text>741.90</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F864EE95-848A-4EE4-80A6-89E82511D61F">
+        <semantic:inputEntry id="_68596E1C-8D85-464B-AAE9-39D1ECDB9572">
+          <semantic:text>"XPF"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1355BDE2-2A4C-4A24-94F9-794ADB7D8D12">
+          <semantic:text>135.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_A03616D2-4907-4DCE-A85B-00EFD3EA06EA">
+        <semantic:inputEntry id="_32BEE1BA-4AFA-4833-86A8-6DEDA7A8DC73">
+          <semantic:text>"YER"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_57592FB1-E116-406C-9180-4095CFBEC81E">
+          <semantic:text>310.00</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_8F84178C-89A3-4708-8F28-F555D10F1AAE">
+        <semantic:inputEntry id="_05191B6F-CF79-44E3-B042-47BA77BB6301">
+          <semantic:text>"ZAR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_1F66BFD6-478A-490C-A8E7-96E4426009A6">
+          <semantic:text>18.50</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_7D9E982F-EC69-4185-BA0E-9E89673AACEC">
+        <semantic:inputEntry id="_498E722E-B835-4FAE-8097-98F1DCD93595">
+          <semantic:text>"ZMW"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_E2FD78C3-1FD4-4433-B897-6F57F2EABCBF">
+          <semantic:text>16.46</semantic:text>
         </semantic:outputEntry>
       </semantic:rule>
     </semantic:decisionTable>
@@ -215,7 +1423,7 @@ else
       <semantic:output id="_967ef512-6cc2-45ee-ab70-9374e695e805" name="pp" typeRef="tPP"/>
       <semantic:rule id="_A1255428-FEA7-414E-8C49-546BF08DC73B">
         <semantic:inputEntry id="_72F1780B-C360-4C2F-8F49-D4BCE0205E6A">
-          <semantic:text>"BA"</semantic:text>
+          <semantic:text>"BAWGB00001"</semantic:text>
         </semantic:inputEntry>
         <semantic:inputEntry id="_0D3AE74B-143A-47A0-8162-D55794335876">
           <semantic:text>"flightAncillary"</semantic:text>
@@ -253,7 +1461,7 @@ else
       </semantic:rule>
       <semantic:rule id="_31cad8e6-1848-49a7-b884-c8c53b9bb568">
         <semantic:inputEntry id="_8572f935-07b4-4df9-a873-a5a37cc20144">
-          <semantic:text>"BA"</semantic:text>
+          <semantic:text>"BAWGB00001"</semantic:text>
         </semantic:inputEntry>
         <semantic:inputEntry id="_6382244f-82d2-4266-84a2-82f854e98730">
           <semantic:text>"flightAncillary"</semantic:text>
