@@ -1,0 +1,537 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<semantic:definitions xmlns:semantic="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="http://www.redhat.com/definitions/avios-poc" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:drools="http://www.drools.org/kie/dmn/1.2" xmlns:tc="http://www.omg.org/spec/DMN/20160719/testcase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rss="http://purl.org/rss/2.0/" xmlns:trisodmn="http://www.trisotech.com/2016/triso/dmn" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:triso="http://www.trisotech.com/2015/triso/modeling" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_ad8acee7-b30e-4903-ae34-0988ea4ff755" name="avios" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="http://www.redhat.com/definitions/avios-poc">
+  <semantic:extensionElements/>
+  <semantic:itemDefinition id="_D6F25331-3805-4CAB-BB20-5A232B4C6700" name="tParams" isCollection="false">
+    <semantic:itemComponent id="_3557e6f6-0504-4843-9bd9-736a0774c484" name="alpha" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_15f0484f-067d-4eee-8c0f-2fb1a779712a" name="beta" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_6d6e68e4-6c0c-419b-9f40-aeaaf507de37" name="minV" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_f68854f3-3321-4893-8182-15cd97333511" name="maxV" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_dc0420cf-8d0b-4632-9da0-e2e58a61f9fc" name="minD" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_5d8a2c75-dc40-4a1f-a60c-7c4a6eda1440" name="maxD" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_087df87a-6618-42fd-926a-8bd0ac5891b0" name="aviosRound" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_49dcedb9-d739-44fe-85c3-a0c445b2b0c4" name="cashRound" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_abb628ad-b56c-4239-bc10-c6ca325ad13a" name="pp" isCollection="true">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+  </semantic:itemDefinition>
+  <semantic:itemDefinition id="_3C160C4D-0BAF-443E-AFBC-F6BC6EB28629" name="tDiscountPoints" isCollection="false">
+    <semantic:itemComponent id="_3834DCFA-0700-4CA1-9E47-E84493B31062" name="cashDiscount" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+    <semantic:itemComponent id="_F9421539-CBB2-4A4F-BEF9-3AC0533CACCA" name="aviosPoints" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
+  </semantic:itemDefinition>
+  <semantic:itemDefinition id="_0FCA8F8F-31F5-44CE-B3C6-920AF66349DA" name="tPP" isCollection="true">
+    <semantic:typeRef>number</semantic:typeRef>
+  </semantic:itemDefinition>
+  <semantic:itemDefinition id="_8631DE89-0B4A-4DF5-8F17-A39F24FF36E6" name="tListDiscountPoints" isCollection="true">
+    <semantic:typeRef>tDiscountPoints</semantic:typeRef>
+  </semantic:itemDefinition>
+  <semantic:inputData id="_268C926F-F50D-4838-928C-9F082D9569C1" name="index">
+    <semantic:variable id="_5F11AD8B-3FA9-4F30-B12C-BABA4E6AC113" name="index"/>
+  </semantic:inputData>
+  <semantic:businessKnowledgeModel id="_9b96c68f-4c07-4af4-b683-0c19c2938174" name="discount and points logic">
+    <semantic:variable id="_2c80b592-27aa-4426-93e9-696df443feaf" name="discount and points logic" typeRef="tDiscountPoints"/>
+    <semantic:encapsulatedLogic id="_e9f3763e-9230-414f-a00d-99200f0c7ef6" typeRef="Any" kind="FEEL">
+      <semantic:formalParameter id="_61492eaf-41c4-4c7e-9abe-907eae626453" name="params" typeRef="tParams"/>
+      <semantic:formalParameter id="_a08167b0-bd1c-4be9-8946-e2776359dd74" name="ppElem" typeRef="Any"/>
+      <semantic:formalParameter id="_e0e9e033-96f4-494e-8449-30295c1e42d9" name="price" typeRef="number"/>
+      <semantic:formalParameter id="_D00368C7-602B-4943-8746-B049EA2D17B9" name="ConversionRate" typeRef="number"/>
+      <semantic:context id="_1fb4af86-11e6-47ac-afb5-ffaf631d2da9">
+        <semantic:contextEntry>
+          <semantic:variable id="_57B2F84A-03A8-4E70-AD76-14174A966A44" name="conversionPrice" typeRef="number"/>
+          <semantic:literalExpression id="_AC7812CF-1ACA-4EE7-A473-E279C5CF671D">
+            <semantic:text>price/ConversionRate</semantic:text>
+          </semantic:literalExpression>
+        </semantic:contextEntry>
+        <semantic:contextEntry>
+          <semantic:variable id="_06e09608-876d-40b2-99a7-efbbb7178cd7" name="cashDiscount" typeRef="number"/>
+          <semantic:literalExpression id="_d6975582-7730-437e-98a4-dca2128004ff">
+            <semantic:text>if ppElem = 1 then
+  conversionPrice
+else
+  decimal(ppElem*conversionPrice/params.cashRound,0)*params.cashRound</semantic:text>
+          </semantic:literalExpression>
+        </semantic:contextEntry>
+        <semantic:contextEntry>
+          <semantic:variable id="_6b6c1cf0-b1ae-4d48-aa1e-5c42206abd70" name="aviosPoints" typeRef="number"/>
+          <semantic:decisionTable id="_438b0d4b-be48-4550-8695-a0d46f79a3e8" hitPolicy="FIRST" preferredOrientation="Rule-as-Row" outputLabel="aviosPoints">
+            <semantic:input id="_dc5881de-2ddc-434c-9468-da5c1f4de6fc">
+              <semantic:inputExpression id="_D8F43E43-C37E-4B72-8299-B9C27C5CC078" typeRef="number">
+                <semantic:text>cashDiscount</semantic:text>
+              </semantic:inputExpression>
+            </semantic:input>
+            <semantic:output id="_74e9dc64-1869-4a7e-895d-8b91ad4845e5"/>
+            <semantic:rule id="_3f8f6b06-0cc7-4148-b357-e71fd3c6a5f5">
+              <semantic:inputEntry id="_05e0b92c-e30d-4d6a-8846-8758103e15b3">
+                <semantic:text>&lt;= params.minD</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_fcaecf5e-12a4-4ae3-b1d4-1b754c2f029b">
+                <semantic:text>cashDiscount/params.maxV</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_2bd6195d-53b2-41c3-9738-3a99db5593eb">
+              <semantic:inputEntry id="_21606802-5a7a-40a8-bc86-64e049528c41">
+                <semantic:text>&gt;= params.maxD</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_cdd9f833-010e-45d4-b8d3-12710cf25ea7">
+                <semantic:text>cashDiscount/params.minV</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_8fa842a2-a163-42e9-a9e1-78fedc8baeff">
+              <semantic:inputEntry id="_048792d7-e603-4336-bb0d-6221ebf54f0a">
+                <semantic:text>-</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_bf4167e6-3384-4f47-a624-21b188708eff">
+                <semantic:text>cashDiscount/(params.alpha*(cashDiscount ** params.beta))</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+          </semantic:decisionTable>
+        </semantic:contextEntry>
+        <semantic:contextEntry>
+          <semantic:variable id="_D7263D95-CDBC-4F68-8DBF-74155E83DB51" name="aviosPointsRounded" typeRef="number"/>
+          <semantic:literalExpression id="_3E745A89-B56C-454A-BC4B-00E17DFFC4B5">
+            <semantic:text>decimal(aviosPoints/params.aviosRound,0)*params.aviosRound</semantic:text>
+          </semantic:literalExpression>
+        </semantic:contextEntry>
+        <semantic:contextEntry>
+          <semantic:variable id="_CF0C7A01-9691-4F92-8048-E5A4478F6A61" name="convertedCashDiscount" typeRef="number"/>
+          <semantic:literalExpression id="_75DAF0F3-7036-4475-A838-C1F71DEB1E72">
+            <semantic:text>if ppElem = 1 then
+   price
+else
+   decimal(cashDiscount*ConversionRate,0)</semantic:text>
+          </semantic:literalExpression>
+        </semantic:contextEntry>
+        <semantic:contextEntry>
+          <semantic:literalExpression id="_ceffdd62-9b97-4148-8705-3029621aae35">
+            <semantic:text>{ "cashDiscount": convertedCashDiscount, "aviosPoints": aviosPointsRounded}</semantic:text>
+          </semantic:literalExpression>
+        </semantic:contextEntry>
+      </semantic:context>
+    </semantic:encapsulatedLogic>
+  </semantic:businessKnowledgeModel>
+  <semantic:inputData id="_5d5d89d0-c1c4-43ca-92d8-7d02ac0703c5" name="Sub Product">
+    <semantic:variable id="_f3765504-e32c-4e73-b2b6-62b90e8f95ac" name="Sub Product" typeRef="string"/>
+  </semantic:inputData>
+  <semantic:decision id="_F7A511AF-A611-4310-99AC-0C95C7652615" name="ConversionRate">
+    <semantic:variable id="_D608F354-023E-4A50-9007-4232377CAD4D" name="ConversionRate" typeRef="number"/>
+    <semantic:informationRequirement id="_CB0ED9D0-3247-484A-A045-47B92FC88F2C">
+      <semantic:requiredInput href="#_1F00398E-A02C-47BC-835E-6F02A5CEC871"/>
+    </semantic:informationRequirement>
+    <semantic:decisionTable id="_3ACEDDF9-A25F-4894-A4A6-A3B29C415FE0" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <semantic:input id="_BEFC0E49-7A48-4DE5-B380-DC400FEE61BB">
+        <semantic:inputExpression id="_AFE1A9D1-2190-4611-81FD-4360D3181014" typeRef="string">
+          <semantic:text>Currency</semantic:text>
+        </semantic:inputExpression>
+      </semantic:input>
+      <semantic:output id="_CC510CBD-6623-4763-A7A9-39A132AAAC68" typeRef="number"/>
+      <semantic:rule id="_004E8E9E-5534-4D15-8B98-E359627BB8EC">
+        <semantic:inputEntry id="_096E0F40-CA64-46C8-83EA-0C8A5EF83A16">
+          <semantic:text>"EUR"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_268B0FD0-97AC-46E0-AC07-468F77E0B8BF">
+          <semantic:text>1.1214</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_14D2F8FE-C1AE-477E-98C4-1CEFA6A09AF8">
+        <semantic:inputEntry id="_74C18E42-2C87-4A6F-917C-47B95DDC0A1F">
+          <semantic:text>"GBP"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_5456E551-132F-41A8-A22E-DDA456EBC38E">
+          <semantic:text>1</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_36131C53-7B49-4217-8999-18FC20491838">
+        <semantic:inputEntry id="_F9D3A3FE-ABEE-447F-AB37-BC002744FAD4">
+          <semantic:text>"USD"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_E695ADF0-5437-401E-B12E-5244CB8D6272">
+          <semantic:text>1.2662</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_F60B5A8A-AFF5-4884-98F2-983855DC7B8E">
+        <semantic:inputEntry id="_F731494A-7683-454D-B09D-C1E8B7265129">
+          <semantic:text>"AED"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_029DFC5E-2C55-41C8-BE69-28A94AECC571">
+          <semantic:text>4.58</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+    </semantic:decisionTable>
+  </semantic:decision>
+  <semantic:decision id="_90af2754-d93b-4c82-af28-72a01f6d1ad1" name="Partners Parameters">
+    <semantic:variable id="_beb4e673-db0a-4ca7-b2a7-7b302d0bf367" name="Partners Parameters" typeRef="tParams"/>
+    <semantic:informationRequirement id="_8be8e190-5091-4eaa-ae87-3251bc967f7b">
+      <semantic:requiredInput href="#_5d5d89d0-c1c4-43ca-92d8-7d02ac0703c5"/>
+    </semantic:informationRequirement>
+    <semantic:informationRequirement id="_0fbdfc93-d412-40a4-b95d-f03983b73140">
+      <semantic:requiredInput href="#_d36b2b9a-2733-4876-b5f4-4c6c58d56ff4"/>
+    </semantic:informationRequirement>
+    <semantic:informationRequirement id="_47ffbb25-a133-4bde-87b6-fc208b67373c">
+      <semantic:requiredInput href="#_1f57ab6a-ffaf-4a22-b4e7-3e11e422fa24"/>
+    </semantic:informationRequirement>
+    <semantic:decisionTable id="_1cbf16fc-fee3-4722-b2bb-987ec40c842e" typeRef="tParams" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row" outputLabel="Partners Parameters">
+      <semantic:input id="_cc56a045-7f82-4488-bc43-8db68ef2473d">
+        <semantic:inputExpression id="_ABEFAE3D-FEE3-43C9-BC13-80A10D1F77F9" typeRef="string">
+          <semantic:text>Partner</semantic:text>
+        </semantic:inputExpression>
+      </semantic:input>
+      <semantic:input id="_c21ec9cd-0d24-452a-a806-2b5e022a9449">
+        <semantic:inputExpression id="_4593B8BF-30E9-40CA-A361-35C134C9A3A6" typeRef="string">
+          <semantic:text>Product</semantic:text>
+        </semantic:inputExpression>
+      </semantic:input>
+      <semantic:input id="_ee7d5b3c-f831-4fd8-ab74-503d58aa363d">
+        <semantic:inputExpression id="_B254BA47-5443-404E-A217-E517D8A0AF35" typeRef="string">
+          <semantic:text>Sub Product</semantic:text>
+        </semantic:inputExpression>
+      </semantic:input>
+      <semantic:output id="_2a5bb2e3-60b3-4133-9620-efec041b98d9" name="alpha" typeRef="number"/>
+      <semantic:output id="_4e790a2b-0646-4982-bff0-908274c15d61" name="beta" typeRef="number"/>
+      <semantic:output id="_ffcf5a51-fcec-4536-b321-fbacd8cb7c3c" name="minV" typeRef="number"/>
+      <semantic:output id="_f49d09df-b1df-47b7-a0d6-bfa71ae84a3b" name="maxV" typeRef="number"/>
+      <semantic:output id="_e5ad3894-4535-4b53-a798-384793c0425c" name="minD" typeRef="number"/>
+      <semantic:output id="_46dd19a8-a51f-42cc-8c0f-bfe99e51228c" name="maxD" typeRef="number"/>
+      <semantic:output id="_4bfd1b01-8e2b-46a3-825b-c4879303022b" name="aviosRound" typeRef="number"/>
+      <semantic:output id="_34cffd48-e542-44af-9c97-2c36cce2b39f" name="cashRound" typeRef="number"/>
+      <semantic:output id="_967ef512-6cc2-45ee-ab70-9374e695e805" name="pp" typeRef="tPP"/>
+      <semantic:rule id="_A1255428-FEA7-414E-8C49-546BF08DC73B">
+        <semantic:inputEntry id="_72F1780B-C360-4C2F-8F49-D4BCE0205E6A">
+          <semantic:text>"BA"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:inputEntry id="_0D3AE74B-143A-47A0-8162-D55794335876">
+          <semantic:text>"flightAncillary"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:inputEntry id="_40178CAC-79AD-46D0-8FCB-E5C6C00C8E73">
+          <semantic:text>"SEAT"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_A4E993CD-3665-4D56-8FC8-F08F7B4F076B">
+          <semantic:text>0.00578354</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_995CB3B1-65FC-459F-ADBC-9B4D70A5915D">
+          <semantic:text>-0.023208963</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_9CDD16DE-FE0A-4FF3-9790-A545494E3DEC">
+          <semantic:text>0.0049</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_A72ADF18-CF42-4E76-81CA-184A0921E9E7">
+          <semantic:text>0.0058</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_C73EAFD0-543B-4067-9308-F840E57D10E7">
+          <semantic:text>1</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_90C912B2-61C9-42AB-8B17-5D9D38A18F3A">
+          <semantic:text>250</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_92BB7547-9355-49C2-831B-56CA85C2B18D">
+          <semantic:text>25</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_64C9641A-073A-4175-9AC6-2363A3A6F519">
+          <semantic:text>1</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_6676EDB1-A6DC-4058-B98C-D4E0608BB5CB">
+          <semantic:text>[0.25,0.50,0.75,1]</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+      <semantic:rule id="_31cad8e6-1848-49a7-b884-c8c53b9bb568">
+        <semantic:inputEntry id="_8572f935-07b4-4df9-a873-a5a37cc20144">
+          <semantic:text>"BA"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:inputEntry id="_6382244f-82d2-4266-84a2-82f854e98730">
+          <semantic:text>"flightAncillary"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:inputEntry id="_f682c203-66f4-4e06-9190-88acacad99a8">
+          <semantic:text>"BAGGAGE"</semantic:text>
+        </semantic:inputEntry>
+        <semantic:outputEntry id="_55146636-738b-47a0-8a70-3f463ee61b20">
+          <semantic:text>0.00578354</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_3fe04247-6838-40cd-9323-133288f3d109">
+          <semantic:text>-0.023208963</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_fd81bd1d-8bdd-46dd-87a4-bdef992c2a0d">
+          <semantic:text>0.0049</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_2598f851-d68e-4b59-9d8f-770860cd6900">
+          <semantic:text>0.0058</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_97ca2fba-3b7d-48b1-9b9c-c043e5e3266f">
+          <semantic:text>1</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_a0233a1e-e679-4e3d-9b5f-7a8146662282">
+          <semantic:text>250</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_82fa164b-f190-4fc6-a62b-e3dc5ee05680">
+          <semantic:text>25</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_4c64672d-9d7c-4855-914a-39f3369b670a">
+          <semantic:text>1</semantic:text>
+        </semantic:outputEntry>
+        <semantic:outputEntry id="_c58d3bd3-2864-4f25-a348-8b7943fc41ad">
+          <semantic:text>[0.25,0.50,0.75,1]</semantic:text>
+        </semantic:outputEntry>
+      </semantic:rule>
+    </semantic:decisionTable>
+  </semantic:decision>
+  <semantic:decision id="_762AE563-0CBC-494B-AED6-8DA8F0D9849B" name="Probe">
+    <semantic:variable id="_2AE8FB8D-74FD-44A6-A423-CD14105A21A6" name="Probe" typeRef="tDiscountPoints"/>
+    <semantic:informationRequirement id="_2394F422-2AA7-44BD-B6C4-B2A01A93B1C4">
+      <semantic:requiredDecision href="#_e7cee1fd-1c61-4b3e-a21c-29e25f779c86"/>
+    </semantic:informationRequirement>
+    <semantic:informationRequirement id="_05FEB75C-C857-41E6-815E-FC484D6EA090">
+      <semantic:requiredInput href="#_268C926F-F50D-4838-928C-9F082D9569C1"/>
+    </semantic:informationRequirement>
+    <semantic:literalExpression id="_A4164D9C-D886-4B99-9C3F-334F5D9B0D9C">
+      <semantic:text>Calculate discount and avios points[index]</semantic:text>
+    </semantic:literalExpression>
+  </semantic:decision>
+  <semantic:decision id="_e7cee1fd-1c61-4b3e-a21c-29e25f779c86" name="Calculate discount and avios points">
+    <semantic:variable id="_57fcdf63-e574-4dd1-ac02-33ec29d6720a" name="Calculate discount and avios points" typeRef="tListDiscountPoints"/>
+    <semantic:informationRequirement id="_7ee94a14-0c1a-4f79-b78e-76ea1c7cb64c">
+      <semantic:requiredDecision href="#_90af2754-d93b-4c82-af28-72a01f6d1ad1"/>
+    </semantic:informationRequirement>
+    <semantic:informationRequirement id="_e21cf2b8-c2fc-4a24-bb01-4920ce08eabf">
+      <semantic:requiredInput href="#_4ecf6a75-e4ee-4bbd-b9cc-af2c1eac7910"/>
+    </semantic:informationRequirement>
+    <semantic:informationRequirement id="_E904A440-2B85-4674-B52D-E33BD44E3AA0">
+      <semantic:requiredDecision href="#_F7A511AF-A611-4310-99AC-0C95C7652615"/>
+    </semantic:informationRequirement>
+    <semantic:knowledgeRequirement id="_505db75d-e702-4cf8-88c8-a44b57a6ef81">
+      <semantic:requiredKnowledge href="#_9b96c68f-4c07-4af4-b683-0c19c2938174"/>
+    </semantic:knowledgeRequirement>
+    <semantic:literalExpression id="_9810D734-9372-4AA4-99B2-BFC110D798A9">
+      <semantic:text>for element in Partners Parameters.pp return discount and points logic(Partners Parameters, element, Price, ConversionRate)</semantic:text>
+    </semantic:literalExpression>
+  </semantic:decision>
+  <semantic:inputData id="_1F00398E-A02C-47BC-835E-6F02A5CEC871" name="Currency">
+    <semantic:variable id="_9AD7DB5A-B733-4545-BF67-1EB25C8AB34E" name="Currency"/>
+  </semantic:inputData>
+  <semantic:inputData id="_4ecf6a75-e4ee-4bbd-b9cc-af2c1eac7910" name="Price">
+    <semantic:variable id="_e777f80a-444c-4abf-9a6b-19f56b688cfe" name="Price" typeRef="number"/>
+  </semantic:inputData>
+  <semantic:inputData id="_1f57ab6a-ffaf-4a22-b4e7-3e11e422fa24" name="Partner">
+    <semantic:variable id="_236a454e-f74a-4c3b-9cd3-fd448d6ba606" name="Partner" typeRef="string"/>
+  </semantic:inputData>
+  <semantic:inputData id="_d36b2b9a-2733-4876-b5f4-4c6c58d56ff4" name="Product">
+    <semantic:variable id="_ba43873e-659d-4938-bb75-475b50f61b3e" name="Product" typeRef="string"/>
+  </semantic:inputData>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <di:extension>
+        <drools:ComponentsWidthsExtension>
+          <drools:ComponentWidths dmnElementRef="_1fb4af86-11e6-47ac-afb5-ffaf631d2da9">
+            <drools:width>50.0</drools:width>
+            <drools:width>162.0</drools:width>
+            <drools:width>771.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_AC7812CF-1ACA-4EE7-A473-E279C5CF671D">
+            <drools:width>771.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_d6975582-7730-437e-98a4-dca2128004ff">
+            <drools:width>771.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_438b0d4b-be48-4550-8695-a0d46f79a3e8">
+            <drools:width>50.0</drools:width>
+            <drools:width>138.0</drools:width>
+            <drools:width>463.0</drools:width>
+            <drools:width>100.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_3E745A89-B56C-454A-BC4B-00E17DFFC4B5">
+            <drools:width>771.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_75DAF0F3-7036-4475-A838-C1F71DEB1E72">
+            <drools:width>771.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_ceffdd62-9b97-4148-8705-3029621aae35">
+            <drools:width>771.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_3ACEDDF9-A25F-4894-A4A6-A3B29C415FE0">
+            <drools:width>50.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_1cbf16fc-fee3-4722-b2bb-987ec40c842e">
+            <drools:width>50.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>434.0</drools:width>
+            <drools:width>100.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_A4164D9C-D886-4B99-9C3F-334F5D9B0D9C">
+            <drools:width>722.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_9810D734-9372-4AA4-99B2-BFC110D798A9">
+            <drools:width>947.0</drools:width>
+          </drools:ComponentWidths>
+        </drools:ComponentsWidthsExtension>
+      </di:extension>
+      <dmndi:DMNShape id="dmnshape-_268C926F-F50D-4838-928C-9F082D9569C1" dmnElementRef="_268C926F-F50D-4838-928C-9F082D9569C1" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="161" green="161" blue="161"/>
+          <dmndi:StrokeColor red="6" green="6" blue="6"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="109" y="270" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_9b96c68f-4c07-4af4-b683-0c19c2938174" dmnElementRef="_9b96c68f-4c07-4af4-b683-0c19c2938174" isCollapsed="false">
+        <dmndi:DMNStyle fontFamily="arial,helvetica,sans-serif" fontSize="11">
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="726" y="184.0048017503592" width="153" height="60"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_5d5d89d0-c1c4-43ca-92d8-7d02ac0703c5" dmnElementRef="_5d5d89d0-c1c4-43ca-92d8-7d02ac0703c5" isCollapsed="false">
+        <dmndi:DMNStyle fontFamily="arial,helvetica,sans-serif" fontSize="11">
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="451" y="531.0048017503592" width="135.48234176635742" height="60.00000762939453"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_F7A511AF-A611-4310-99AC-0C95C7652615" dmnElementRef="_F7A511AF-A611-4310-99AC-0C95C7652615" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="687" y="357" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_90af2754-d93b-4c82-af28-72a01f6d1ad1" dmnElementRef="_90af2754-d93b-4c82-af28-72a01f6d1ad1" isCollapsed="false">
+        <dmndi:DMNStyle fontFamily="arial,helvetica,sans-serif" fontSize="11">
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="273" y="330" width="153" height="60"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_762AE563-0CBC-494B-AED6-8DA8F0D9849B" dmnElementRef="_762AE563-0CBC-494B-AED6-8DA8F0D9849B" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="180" green="180" blue="180"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="149.5" y="160.0048017503592" width="131" height="62"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_e7cee1fd-1c61-4b3e-a21c-29e25f779c86" dmnElementRef="_e7cee1fd-1c61-4b3e-a21c-29e25f779c86" isCollapsed="false">
+        <dmndi:DMNStyle fontFamily="arial,helvetica,sans-serif" fontSize="11">
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="388" y="159.0048017503592" width="150" height="63"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_1F00398E-A02C-47BC-835E-6F02A5CEC871" dmnElementRef="_1F00398E-A02C-47BC-835E-6F02A5CEC871" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="863" y="542" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_4ecf6a75-e4ee-4bbd-b9cc-af2c1eac7910" dmnElementRef="_4ecf6a75-e4ee-4bbd-b9cc-af2c1eac7910" isCollapsed="false">
+        <dmndi:DMNStyle fontFamily="arial,helvetica,sans-serif" fontSize="11">
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="507.30918653434685" y="330.21052240070543" width="135.48234176635742" height="60.00000762939453"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_1f57ab6a-ffaf-4a22-b4e7-3e11e422fa24" dmnElementRef="_1f57ab6a-ffaf-4a22-b4e7-3e11e422fa24" isCollapsed="false">
+        <dmndi:DMNStyle fontFamily="arial,helvetica,sans-serif" fontSize="11">
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="109.44591525179317" y="531.0048017503592" width="135.48234176635742" height="60.00000762939453"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_d36b2b9a-2733-4876-b5f4-4c6c58d56ff4" dmnElementRef="_d36b2b9a-2733-4876-b5f4-4c6c58d56ff4" isCollapsed="false">
+        <dmndi:DMNStyle fontFamily="arial,helvetica,sans-serif" fontSize="11">
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="280.30918653434685" y="531.0048017503592" width="135.48234176635742" height="60.00000762939453"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="dmnedge-_CB0ED9D0-3247-484A-A045-47B92FC88F2C" dmnElementRef="_CB0ED9D0-3247-484A-A045-47B92FC88F2C">
+        <di:waypoint x="963" y="567"/>
+        <di:waypoint x="737" y="407"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_8be8e190-5091-4eaa-ae87-3251bc967f7b" dmnElementRef="_8be8e190-5091-4eaa-ae87-3251bc967f7b">
+        <di:waypoint x="508.7379722595215" y="531.0048017503592"/>
+        <di:waypoint x="349.5" y="360"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_0fbdfc93-d412-40a4-b95d-f03983b73140" dmnElementRef="_0fbdfc93-d412-40a4-b95d-f03983b73140">
+        <di:waypoint x="338.04715879386833" y="531.0048017503592"/>
+        <di:waypoint x="349.5" y="360"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_47ffbb25-a133-4bde-87b6-fc208b67373c" dmnElementRef="_47ffbb25-a133-4bde-87b6-fc208b67373c">
+        <di:waypoint x="177.18708613497188" y="531.0048017503592"/>
+        <di:waypoint x="349.5" y="360"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_2394F422-2AA7-44BD-B6C4-B2A01A93B1C4" dmnElementRef="_2394F422-2AA7-44BD-B6C4-B2A01A93B1C4">
+        <di:waypoint x="463" y="190.5048017503592"/>
+        <di:waypoint x="215" y="191.0048017503592"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_05FEB75C-C857-41E6-815E-FC484D6EA090" dmnElementRef="_05FEB75C-C857-41E6-815E-FC484D6EA090">
+        <di:waypoint x="159" y="295"/>
+        <di:waypoint x="215" y="191.0048017503592"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_7ee94a14-0c1a-4f79-b78e-76ea1c7cb64c" dmnElementRef="_7ee94a14-0c1a-4f79-b78e-76ea1c7cb64c">
+        <di:waypoint x="349.5" y="330"/>
+        <di:waypoint x="463" y="190.5048017503592"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_e21cf2b8-c2fc-4a24-bb01-4920ce08eabf" dmnElementRef="_e21cf2b8-c2fc-4a24-bb01-4920ce08eabf">
+        <di:waypoint x="575.0503574175256" y="330.21052240070543"/>
+        <di:waypoint x="463" y="190.5048017503592"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_E904A440-2B85-4674-B52D-E33BD44E3AA0" dmnElementRef="_E904A440-2B85-4674-B52D-E33BD44E3AA0">
+        <di:waypoint x="737" y="357"/>
+        <di:waypoint x="538" y="190.5048017503592"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_505db75d-e702-4cf8-88c8-a44b57a6ef81" dmnElementRef="_505db75d-e702-4cf8-88c8-a44b57a6ef81">
+        <di:waypoint x="726" y="214.0048017503592"/>
+        <di:waypoint x="538" y="190.5048017503592"/>
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</semantic:definitions>
